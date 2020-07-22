@@ -27,6 +27,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+            //return Char.IsLetter(c);
         }
 
         public bool CountOfElementsIsEven(string[] vals)
@@ -51,6 +52,10 @@ namespace ChallengesWithTestsMark8
         public bool IsNumberEven(int number)
         {
             //  Checks a integer and returns a bool=true if even
+
+            //  This uses the Ternary Operator 
+            //  return number % 2 == 0 ? true : false;
+
             if (number % 2 == 0)
             {
                 return true;
